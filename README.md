@@ -15,3 +15,4 @@ CSS designs
 11. fullpagewidth navigation
 12. top navigation
 13. Triangle navigation
+14. shrink nav scroll with background image

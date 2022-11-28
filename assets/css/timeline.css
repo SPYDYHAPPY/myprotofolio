@@ -115,3 +115,6 @@ body{
     left: 0;
     right: -55.8px;
 }
+.event:hover {
+    color: #22e6e6;
+}
