@@ -1,54 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
 }
 
-.sidenav{
+.sidenav {
     float: left;
-    border: 2px solid #ccc;
     width: 20%;
     height: 100vh;
-    background-color: #f1f1f1;
+    background-color: #0a0330;
 }
 
-.sidenav a{
+.sidenav a {
     display: block;
     background-color: inherit;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     width: 100%;
-    padding: 12px 14px;
-    text-align: center;
+    padding: 12px 40px;
+    text-align: left;
     cursor: pointer;
     transition: 0.5s;
     font-size: 18px;
 }
 
-.home{
-    margin-top: 12em;
+.back {
+    margin-top: 10rem;
 }
 
-.navcontent{
+.home {
+    margin-top: 15em;
+}
+
+.navcontent {
     float: left;
-    height: 100vh;
+    height: 90vh;
     width: 80%;
     padding: 0px 20px;
+    background-color: #c8d5fb;
 }
 
-.sidenav a:hover{
-    background-color: #ddd;
+.sidenav a:hover {
+    background-color: #fac6c6;
 }
 
-.sidenav a.active{
-    background-color: #ccc;
+.sidenav a.active {
+    background-color: #f87a8b;
 }
+
+/** home section **/
+#home>div {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+
+/** about section **/
+#about {
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+#about h3 {
+    margin-top: 10rem;
+    font-size: 28px;
+    border-bottom: 5px solid #3141f2;
+    width: 80px;
+}
+
+#about .row {
+    display: inline-flex;
+    width: 100%;
+    text-align: left;
+}
+
+.row_1,
+.row_2 {
+    display: block;
+    width: 100%;
+    margin-right: 12em;
+    padding: 13px;
+}
+
+#about li {
+    list-style-type: none;
+    line-height: 2.3rem;
+}
+
+#about p {
+    margin: 12px;
+}
+
+
+/**Resume**/
+#resume {
+    padding: 20px 12px;
+    display: flex;
+}
+
+.address {
+    padding: 10px;
+    font-style: italic;
+    float: left;
+}
+
+.academic,
+.experience,
+.resume-title {
+    display: inline-flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.resume-item {
+    margin: 5px;
+}
+
+#resume li {
+    list-style-type: none;
+}
+
+/****/
+
+/** services **/
+#services {
+    padding: 20px 40px;
+}
+
+#services .container {
+    margin-top: 12rem;
+    width: 100%;
+}
+
+#services h2 {
+    font-size: 28px;
+    border-bottom: 5px solid #3141f2;
+    width: 120px;
+}
+
+#services p {
+    margin: 10px;
+}
+
+#services a {
+    text-decoration: none;
+    color: #0d0431;
+}
+
+.service_content {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-top: 1.8rem;
+}
+
+/**Contact**/
