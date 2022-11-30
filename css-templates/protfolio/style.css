@@ -43,7 +43,7 @@ body {
 
 .navcontent {
     float: left;
-    height: 90vh;
+    height: 95vh;
     width: 80%;
     padding: 0px 20px;
     background-color: #c8d5fb;
@@ -167,3 +167,35 @@ body {
 }
 
 /**Contact**/
+#contact {
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+.head-con{
+    margin-top: 12rem;
+}
+
+.head-con h2{
+    border-bottom: 5px solid #ed83b3;
+    width: 100px;
+}
+
+.loc{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.loc > div {
+    width: 50%;
+    display: block;
+}
+
+/* footer */
+.copyright {
+    height: 5vh;
+    text-align: center;
+    color: #1961bfbb;
+}
