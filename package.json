@@ -1,0 +1,24 @@
+{
+  "name": "nodedev",
+  "version": "1.0.0",
+  "description": "old website upgrade",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPYDYHAPPY/myprotofolio.git"
+  },
+  "author": "debasish brahma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SPYDYHAPPY/myprotofolio/issues"
+  },
+  "homepage": "https://github.com/SPYDYHAPPY/myprotofolio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
