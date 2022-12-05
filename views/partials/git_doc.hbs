@@ -1,0 +1,214 @@
+<div class="container-md">
+    <h1 class="page-title">
+        {{ name }}
+    </h1>
+    <div class="accordion mb-5" id="accordionExample">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="clearfix mb-0">
+                            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-chevron-circle-down"></i> Git CONFIG
+                            </a>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            <b> git config --global
+                                user.name <name> </b> - Define the author name to be used for all commits by the
+                            current user.
+                            GIT CONFIG
+                            <b> git config --global
+                                user.email <email> </b> - Define the author email to be used for all commits by the
+                            current user.
+                            <b> git config --global
+                                alias. <alias-name>
+                                    <git-command> </b> -
+                            Create shortcut for a Git command. E.g. alias.glog “log --graph
+                            --oneline” will set ”git glog” equivalent to ”git log --graph --oneline.
+                            <b> git config --system
+                                core.editor <editor> </b> -
+                            Set text editor used by commands for all users on the machine. <editor>
+                                arg should be the command that launches the desired editor (e.g., vi).
+                                <b>git config
+                                    --global --edit </b> -
+                                Open the global configuration file in a text editor for manual editing.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo"><i
+                                    class="fa fa-chevron-circle-down"></i> Git init</a>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Create empty Git repo in specified directory. Run with no
+                            arguments to initialize the current directory as a git
+                            repository. <b>git init</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree"><i
+                                    class="fa fa-chevron-circle-down"></i> git clone [repo url]
+                            </a>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Clone repo located at [repo] onto local machine. Original repo can be
+                            located on the local filesystem or on a remote machine via HTTP or SSH.
+                            <b>git clone [repo url]</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour"><i
+                                    class="fa fa-chevron-circle-down"></i>git add directory</a>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Stage all changes in directory for the next commit.
+                            Replace directory with a file to change a specific file. <b>git add .</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive"><i
+                                    class="fa fa-chevron-circle-down"></i>git commit -m
+                                "message"
+                            </a>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Commit the staged snapshot, but instead of launching
+                            a text editor, use [message] as the commit message..
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                aria-expanded="false" aria-controls="collapseSix"><i
+                                    class="fa fa-chevron-circle-down"></i>git status</a>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            List which files are staged, unstaged, and untracked.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                                aria-expanded="false" aria-controls="collapseSeven"><i
+                                    class="fa fa-chevron-circle-down"></i>git log</a>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Display the entire commit history using the default format.
+                            For customization see additional options.List which files are staged, unstaged, and
+                            untracked.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
+                                aria-expanded="false" aria-controls="collapseEight"><i
+                                    class="fa fa-chevron-circle-down"></i>git branch, git checkout -b
+                                branch, git merge branch</a>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            <b>git branch :</b> List all of the branches in your repo. Add a "branch" argument to
+                            create a new branch with the name "branch". <b>git checkout -b
+                                branchname :</b> Create and check out a new branch named
+                            branch also switch.
+                            Drop the -b flag to checkout an existing branch.
+                            <b>git merge branchname :</b> Merge branch into the current branch.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingNie">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNie"
+                                aria-expanded="false" aria-controls="collapseNie"><i
+                                    class="fa fa-chevron-circle-down"></i>git remote add
+                                [name] [url]</a>
+                        </h2>
+                    </div>
+                    <div id="collapseNie" class="collapse" aria-labelledby="headingNie" data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Create a new connection to a remote repo. After adding a remote,
+                            you can use name as a shortcut for url in other commands.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingten">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseten"
+                                aria-expanded="false" aria-controls="collapseten"><i
+                                    class="fa fa-chevron-circle-down"></i>git pull [remote] </a>
+                        </h2>
+                    </div>
+                    <div id="collapseten" class="collapse" aria-labelledby="headingten" data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Fetch the specified remote’s copy of current branch and
+                            immediately merge it into the local copy.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingelve">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseelve"
+                                aria-expanded="false" aria-controls="collapseelve"><i
+                                    class="fa fa-chevron-circle-down"></i>git push
+                                [remote] [branch]</a>
+                        </h2>
+                    </div>
+                    <div id="collapseelve" class="collapse" aria-labelledby="headingelve"
+                        data-parent="#accordionExample">
+                        <div class="card-body text-muted">
+                            Push the branch to [remote], along with necessary commits and
+                            objects. Creates named branch in the remote repo if it doesn’t exist.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

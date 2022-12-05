@@ -1,10 +1,28 @@
 {
-    "concepts" :[
+    "tutorials": [
         {
-            "learn_date" : "28.11.2022",
-            "learn_title" : "New navigation with shrink and scroll added.",
-            "learn_description" : "New navigation with shrink and scroll css page has added.",
-            "learn_link" : ""
+            "learn_date": "28.11.2022",
+            "learn_title": "New navigation with shrink and scroll added.",
+            "learn_description": "New navigation with shrink and scroll css page has added.",
+            "learn_link": ""
+        },
+        {
+            "learn_date": "27.11.2022",
+            "learn_title": "New offcanvas design added to css design page.",
+            "learn_description": "New homepage has been added. New learing timeline updates with page available. Tutorials page updated.",
+            "learn_link": ""
+        },
+        {
+            "learn_date": "26.11.2022",
+            "learn_title": "Homepage Updated 1.0",
+            "learn_description": "New homepage has been added. New learing timeline updates with page available. Tutorials page updated.",
+            "learn_link": ""
+        },
+        {
+            "learn_date": "26.11.2022",
+            "learn_title": "All bugs Fixed",
+            "learn_description": "All the bugs have been fixed for new and old page.",
+            "learn_link": ""
         }
     ]
 }
