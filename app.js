@@ -19,7 +19,7 @@ hbs.registerPartials(__dirname + '/views/partials', function (err) {});
 app.get('/',(req, res) => {
   //render index.hbs file
   res.render('index',{
-    name: 'Frontend Deveopment'
+    name: 'Frontend Development'
   });
 });
 
@@ -31,6 +31,7 @@ app.get('/history',(req, res) => {
   });
 });
 
+//git cli documentation route
 app.get('/gitcli',(req, res) => {
   //render gitcli.hbs file
   res.render('git-cli',{
@@ -40,6 +41,10 @@ app.get('/gitcli',(req, res) => {
  
 
  
-app.listen(8000, () => {
-  console.log('Server is running at port 8000');
+var server = app.listen(8000, () => {
+   //var host = server.address().address
+   var port = server.address().port
+
+   // console.log("server is running at http://%s:%s", host, port);
+    console.log("server is running at http://localhost:%s", port);
 });

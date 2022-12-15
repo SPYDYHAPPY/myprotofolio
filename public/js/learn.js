@@ -11,7 +11,7 @@ const tutorials = [
     learn_date: "27.11.2022",
     learn_title: "New offcanvas design added to css design page.",
     learn_description:
-      "New homepage has been added. New learing timeline updates with page available. Tutorials page updated.",
+      "New homepage has been added. New learning timeline updates with page available. Tutorials page updated.",
     learn_link: "fa fa-css3",
     learn_icon: "fa fa-css3",
   },
@@ -19,7 +19,7 @@ const tutorials = [
     learn_date: "26.11.2022",
     learn_title: "Homepage Updated 1.0",
     learn_description:
-      "New homepage has been added. New learing timeline updates with page available. Tutorials page updated.",
+      "New homepage has been added. New learning timeline updates with page available. Tutorials page updated.",
     learn_link: "",
     learn_icon: "fa fa-clone",
   },
